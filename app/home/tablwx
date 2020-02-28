@@ -1,0 +1,40 @@
+
+    <div *ngFor="let detail of details | slice: 0:5"> Details: 
+    <table class="details">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>FileType</th>
+                <th>File_from_bsp</th>
+                <th>Country_Code</th>
+                <th>Rename_Info_Mask</th>
+                <th>Rename_Format</th>
+                <th>File_Path</th>
+                <th>file_backup_path</th>
+                <th>Unzip_File</th>
+                <th>Import_File</th>
+                <th>Status</th>
+                <th>Download_fr_Folder</th>
+                <th>Classify_File</th>
+                <th>Backup_File</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{ detail.id }}</td>
+                <td> {{ detail.fileType }}</td> 
+                <td>{{ detail.file_from_bsp }}</td>
+                <td>{{ detail.country_code }}</td>
+                <td>{{ detail.renameinfo_mask }}</td>
+                <td>{{ detail.rename_format }}</td>
+                <td>{{ detail.file_path }}</td>
+                <td>{{ detail.file_backup_path }}</td>
+                <td>{{ detail.unzip_file }}</td>
+                <td>{{ detail.import_file }}</td>
+                <td>{{ detail.status}}</td>
+                <td>{{ detail.download_fr_folder }}</td>
+                <td>{{ detail.classify_file }}</td>
+                <td>{{ detail.backup_file}}</td>     
+            </tr>
+        </tbody>
+    </div>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AutodAPI</title>
+</head>
+<div role='banner' id="banner"> Welcome To AutodAPI </div>
+
+<body>
+<div id="body">
+    <div> Global Params: </div>
+    <table id="glo">
+        <thead>
+            <tr>
+                <th>User ID</th>
+                <th>smtp</th>
+                <th>version</th>
+                <th>imp_rep_mailFrom</th>
+                <th>imp_rep_mailTo</th>
+                <th>sidt_mailFrom</th>
+                <th>sidt_mailTo</th>
+                <th>Client Name</th>
+                <th>Status</th>
+                <th>Profile</th>
+                <th>Schema Name</th>
+            </tr>
+        </thead>
+        
+        <tbody *ngFor="let glo of gloPara">
+            <tr>
+                <td>{{ glo.user_id }}</td>
+                <td>{{ glo.smtp }}</td>
+                <td>{{ glo.version }}</td>
+                <td>{{ glo.imp_rep_mailfrom }}</td>
+                <td>{{ glo.imp_rep_mailto }}</td>
+                <td>{{ glo.sidt_mailfrom }}</td>
+                <td>{{ glo.sidt_mailto }}</td>
+                <td>{{ glo.client_name }}</td>
+                <td>{{ glo.status }}</td>
+                <td>{{ glo.profile }}</td>
+                <td>{{ glo.schema_name }}</td>
+            </tr>
+        </tbody>
+    </table> <br>
+
+<div> Parameters: </div>
+    <table id="param">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>HostName</th>
+                <th>Port</th>
+                <th>UserName</th>
+                <th>Status</th>
+                <th>Priority</th>
+                <th>ClientCode</th>
+                <th>Source Type</th>
+            </tr>
+        </thead>
+        <tbody *ngFor="let param of params">
+            <tr>
+                <td class="hvr" (click)="paramDetail(param.id)">{{ param.id }}</td>
+                <td class="hvr" (click)="paramDetail(param.id)">{{ param.hostname }}</td>
+                <td class="hvr" (click)="paramDetail(param.id)">{{ param.port }}</td>
+                <td class="hvr" (click)="paramDetail(param.id)">{{ param.username }}</td>
+                <td class="hvr" (click)="paramDetail(param.id)">{{ param.status }}</td>
+                <td class="hvr" (click)="paramDetail(param.id)">{{ param.priority }}</td>
+                <td class="hvr" (click)="paramDetail(param.id)">{{ param.clientCode }}</td>
+                <td class="hvr" (click)="paramDetail(param.id)">{{ param.sourceType }}</td>
+
+            </tr>
+        </tbody>
+    </table><br>
+
+</div> <!--id="body-->
+</body>
+</html>
+

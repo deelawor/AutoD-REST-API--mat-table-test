@@ -1,0 +1,54 @@
+#banner {
+    background-color: rgb(196, 161, 228);
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 5%;
+    height: 100px;
+}
+
+#body{
+  padding: 2%;
+  text-align: left;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+table, th , td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+    width: 15cm;
+    font-family: initial;
+  }
+
+th{
+  background-color: rgba(207, 148, 255, 0.534);
+}  
+
+.hvr:hover {
+      color: rgb(31, 162, 238);
+      opacity: 50%;
+  }
+
+.Btn{
+  border-radius: 10%;
+  background-color: rgb(240, 123, 240);
+  }
+
+#downloadsBtn:hover {
+  opacity: 55%;
+}  
+
+#param{
+    position: relative;
+    left: 295px;
+  }
+
+  #glo{
+    position: relative;
+    left: 100px;
+  }
+
+.details {
+  width: fit-content;
+}

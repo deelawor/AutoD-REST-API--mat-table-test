@@ -1,0 +1,24 @@
+#hver:hover {
+    color: rgb(31, 162, 238);
+    opacity: 50%;
+}
+
+body{
+    padding: 2%;
+    text-align: left;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+table, th , td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+    width: 15cm;
+    font-family: initial;
+  }
+
+th {
+   background-color: rgb(88, 146, 255);
+}  
+

@@ -1,0 +1,949 @@
+
+    <table class="details">
+        <tr>
+            <th>ID</th>
+            <td *ngFor="let detail of details | slice: 0:5">
+            {{ detail.id }}</td>
+        </tr>
+        <tr> 
+            <th>FileType</th>
+            <td *ngFor="let detail of details | slice: 0:5">
+                {{ detail.fileType }}</td>    
+        </tr>
+        <tr>            
+            <th>File_from_bsp</th>
+            <td *ngFor="let detail of details | slice: 0:5">
+                {{ detail.file_from_bsp }}</td>
+        </tr>
+        <tr>
+            <th>Country_Code</th>
+            <td *ngFor="let detail of details | slice: 0:5">
+                {{ detail.country_code }}</td>
+        </tr>
+        <tr>        
+            <th>Rename_Info_Mask</th>
+            <td *ngFor="let detail of details | slice: 0:5">
+                {{ detail.renameinfo_mask }}</td>
+        </tr>
+        <tr>        
+            <th>Rename_Format</th>
+            <td *ngFor="let detail of details | slice: 0:5">
+                {{ detail.rename_format }}</td>
+        </tr>
+        <tr>        
+            <th>File_Path</th>
+            <td *ngFor="let detail of details | slice: 0:5">
+                {{ detail.file_path }}</td>
+        </tr>
+        <tr>        
+            <th>file_backup_path</th>
+            <td *ngFor="let detail of details | slice: 0:5">
+                {{ detail.file_backup_path }}</td>
+        </tr>
+        <tr>        
+            <th>Unzip_File</th>
+            <td *ngFor="let detail of details | slice: 0:5">
+                {{ detail.unzip_file }}</td>
+        </tr>
+        <tr>        
+            <th>Import_File</th>
+            <td *ngFor="let detail of details | slice: 0:5">
+                {{ detail.import_file }}</td>
+        </tr>
+        <tr>        
+            <th>Status</th>
+            <td *ngFor="let detail of details | slice: 0:5">
+                {{ detail.status}}</td>
+        </tr>
+        <tr>        
+            <th>Download_fr_Folder</th>
+            <td *ngFor="let detail of details | slice: 0:5">
+                {{ detail.download_fr_folder }}</td>
+        </tr>
+        <tr>        
+            <th>Classify_File</th>
+            <td *ngFor="let detail of details | slice: 0:5">
+                {{ detail.classify_file }}</td>
+        </tr>
+        <tr>        
+            <th>Backup_File</th>
+            <td *ngFor="let detail of details | slice: 0:5">
+                {{ detail.backup_file}}</td>        
+        </tr>
+</table><br>
+
+<table class="details">
+    <tr>
+        <th>ID</th>
+        <td *ngFor="let detail of details | slice: 5:10">
+        {{ detail.id }}</td>
+    </tr>
+    <tr> 
+        <th>FileType</th>
+        <td *ngFor="let detail of details | slice: 5:10">
+            {{ detail.fileType }}</td>    
+    </tr>
+    <tr>            
+        <th>File_from_bsp</th>
+        <td *ngFor="let detail of details | slice: 5:10">
+            {{ detail.file_from_bsp }}</td>
+    </tr>
+    <tr>
+        <th>Country_Code</th>
+        <td *ngFor="let detail of details | slice: 5:10">
+            {{ detail.country_code }}</td>
+    </tr>
+    <tr>        
+        <th>Rename_Info_Mask</th>
+        <td *ngFor="let detail of details | slice: 5:10">
+            {{ detail.renameinfo_mask }}</td>
+    </tr>
+    <tr>        
+        <th>Rename_Format</th>
+        <td *ngFor="let detail of details | slice: 5:10">
+            {{ detail.rename_format }}</td>
+    </tr>
+    <tr>        
+        <th>File_Path</th>
+        <td *ngFor="let detail of details | slice: 5:10">
+            {{ detail.file_path }}</td>
+    </tr>
+    <tr>        
+        <th>file_backup_path</th>
+        <td *ngFor="let detail of details | slice: 5:10">
+            {{ detail.file_backup_path }}</td>
+    </tr>
+    <tr>        
+        <th>Unzip_File</th>
+        <td *ngFor="let detail of details | slice: 5:10">
+            {{ detail.unzip_file }}</td>
+    </tr>
+    <tr>        
+        <th>Import_File</th>
+        <td *ngFor="let detail of details | slice: 5:10">
+            {{ detail.import_file }}</td>
+    </tr>
+    <tr>        
+        <th>Status</th>
+        <td *ngFor="let detail of details | slice: 5:10">
+            {{ detail.status}}</td>
+    </tr>
+    <tr>        
+        <th>Download_fr_Folder</th>
+        <td *ngFor="let detail of details | slice: 5:10">
+            {{ detail.download_fr_folder }}</td>
+    </tr>
+    <tr>        
+        <th>Classify_File</th>
+        <td *ngFor="let detail of details | slice: 5:10">
+            {{ detail.classify_file }}</td>
+    </tr>
+    <tr>        
+        <th>Backup_File</th>
+        <td *ngFor="let detail of details | slice: 5:10">
+            {{ detail.backup_file}}</td>        
+    </tr>
+</table><br>
+
+<table class="details">
+<tr>
+    <th>ID</th>
+    <td *ngFor="let detail of details | slice: 10:15">
+    {{ detail.id }}</td>
+</tr>
+<tr> 
+    <th>FileType</th>
+    <td *ngFor="let detail of details | slice: 10:15">
+        {{ detail.fileType }}</td>    
+</tr>
+<tr>            
+    <th>File_from_bsp</th>
+    <td *ngFor="let detail of details | slice: 10:15">
+        {{ detail.file_from_bsp }}</td>
+</tr>
+<tr>
+    <th>Country_Code</th>
+    <td *ngFor="let detail of details | slice: 10:15">
+        {{ detail.country_code }}</td>
+</tr>
+<tr>        
+    <th>Rename_Info_Mask</th>
+    <td *ngFor="let detail of details | slice: 10:15">
+        {{ detail.renameinfo_mask }}</td>
+</tr>
+<tr>        
+    <th>Rename_Format</th>
+    <td *ngFor="let detail of details | slice: 10:15">
+        {{ detail.rename_format }}</td>
+</tr>
+<tr>        
+    <th>File_Path</th>
+    <td *ngFor="let detail of details | slice: 10:15">
+        {{ detail.file_path }}</td>
+</tr>
+<tr>        
+    <th>file_backup_path</th>
+    <td *ngFor="let detail of details | slice: 10:15">
+        {{ detail.file_backup_path }}</td>
+</tr>
+<tr>        
+    <th>Unzip_File</th>
+    <td *ngFor="let detail of details | slice: 10:15">
+        {{ detail.unzip_file }}</td>
+</tr>
+<tr>        
+    <th>Import_File</th>
+    <td *ngFor="let detail of details | slice: 10:15">
+        {{ detail.import_file }}</td>
+</tr>
+<tr>        
+    <th>Status</th>
+    <td *ngFor="let detail of details | slice: 10:15">
+        {{ detail.status}}</td>
+</tr>
+<tr>        
+    <th>Download_fr_Folder</th>
+    <td *ngFor="let detail of details | slice: 10:15">
+        {{ detail.download_fr_folder }}</td>
+</tr>
+<tr>        
+    <th>Classify_File</th>
+    <td *ngFor="let detail of details | slice: 10:15">
+        {{ detail.classify_file }}</td>
+</tr>
+<tr>        
+    <th>Backup_File</th>
+    <td *ngFor="let detail of details | slice: 10:15">
+        {{ detail.backup_file}}</td>        
+</tr>
+</table><br>
+
+<table class="details">
+<tr>
+    <th>ID</th>
+    <td *ngFor="let detail of details | slice: 15:21">
+    {{ detail.id }}</td>
+</tr>
+<tr> 
+    <th>FileType</th>
+    <td *ngFor="let detail of details | slice: 15:21">
+        {{ detail.fileType }}</td>    
+</tr>
+<tr>            
+    <th>File_from_bsp</th>
+    <td *ngFor="let detail of details | slice: 15:21">
+        {{ detail.file_from_bsp }}</td>
+</tr>
+<tr>
+    <th>Country_Code</th>
+    <td *ngFor="let detail of details | slice: 15:21">
+        {{ detail.country_code }}</td>
+</tr>
+<tr>        
+    <th>Rename_Info_Mask</th>
+    <td *ngFor="let detail of details | slice: 15:21">
+        {{ detail.renameinfo_mask }}</td>
+</tr>
+<tr>        
+    <th>Rename_Format</th>
+    <td *ngFor="let detail of details | slice: 15:21">
+        {{ detail.rename_format }}</td>
+</tr>
+<tr>        
+    <th>File_Path</th>
+    <td *ngFor="let detail of details | slice: 15:21">
+        {{ detail.file_path }}</td>
+</tr>
+<tr>        
+    <th>file_backup_path</th>
+    <td *ngFor="let detail of details | slice: 15:21">
+        {{ detail.file_backup_path }}</td>
+</tr>
+<tr>        
+    <th>Unzip_File</th>
+    <td *ngFor="let detail of details | slice: 15:21">
+        {{ detail.unzip_file }}</td>
+</tr>
+<tr>        
+    <th>Import_File</th>
+    <td *ngFor="let detail of details | slice: 15:21">
+        {{ detail.import_file }}</td>
+</tr>
+<tr>        
+    <th>Status</th>
+    <td *ngFor="let detail of details | slice: 15:21">
+        {{ detail.status}}</td>
+</tr>
+<tr>        
+    <th>Download_fr_Folder</th>
+    <td *ngFor="let detail of details | slice: 15:21">
+        {{ detail.download_fr_folder }}</td>
+</tr>
+<tr>        
+    <th>Classify_File</th>
+    <td *ngFor="let detail of details | slice: 15:21">
+        {{ detail.classify_file }}</td>
+</tr>
+<tr>        
+    <th>Backup_File</th>
+    <td *ngFor="let detail of details | slice: 15:21">
+        {{ detail.backup_file}}</td>        
+</tr>
+</table><br>
+
+<table class="details">
+<tr>
+    <th>ID</th>
+    <td *ngFor="let detail of details | slice: 21:26">
+    {{ detail.id }}</td>
+</tr>
+<tr> 
+    <th>FileType</th>
+    <td *ngFor="let detail of details | slice: 21:26">
+        {{ detail.fileType }}</td>    
+</tr>
+<tr>            
+    <th>File_from_bsp</th>
+    <td *ngFor="let detail of details | slice: 21:26">
+        {{ detail.file_from_bsp }}</td>
+</tr>
+<tr>
+    <th>Country_Code</th>
+    <td *ngFor="let detail of details | slice: 21:26">
+        {{ detail.country_code }}</td>
+</tr>
+<tr>        
+    <th>Rename_Info_Mask</th>
+    <td *ngFor="let detail of details | slice: 21:26">
+        {{ detail.renameinfo_mask }}</td>
+</tr>
+<tr>        
+    <th>Rename_Format</th>
+    <td *ngFor="let detail of details | slice: 21:26">
+        {{ detail.rename_format }}</td>
+</tr>
+<tr>        
+    <th>File_Path</th>
+    <td *ngFor="let detail of details | slice: 21:26">
+        {{ detail.file_path }}</td>
+</tr>
+<tr>        
+    <th>file_backup_path</th>
+    <td *ngFor="let detail of details | slice: 21:26">
+        {{ detail.file_backup_path }}</td>
+</tr>
+<tr>        
+    <th>Unzip_File</th>
+    <td *ngFor="let detail of details | slice: 21:26">
+        {{ detail.unzip_file }}</td>
+</tr>
+<tr>        
+    <th>Import_File</th>
+    <td *ngFor="let detail of details | slice: 21:26">
+        {{ detail.import_file }}</td>
+</tr>
+<tr>        
+    <th>Status</th>
+    <td *ngFor="let detail of details | slice: 21:26">
+        {{ detail.status}}</td>
+</tr>
+<tr>        
+    <th>Download_fr_Folder</th>
+    <td *ngFor="let detail of details | slice: 21:26">
+        {{ detail.download_fr_folder }}</td>
+</tr>
+<tr>        
+    <th>Classify_File</th>
+    <td *ngFor="let detail of details | slice: 21:26">
+        {{ detail.classify_file }}</td>
+</tr>
+<tr>        
+    <th>Backup_File</th>
+    <td *ngFor="let detail of details | slice: 21:26">
+        {{ detail.backup_file}}</td>        
+</tr>
+</table><br>
+
+<table class="details">
+<tr>
+    <th>ID</th>
+    <td *ngFor="let detail of details | slice: 26:31">
+    {{ detail.id }}</td>
+</tr>
+<tr> 
+    <th>FileType</th>
+    <td *ngFor="let detail of details | slice: 26:31">
+        {{ detail.fileType }}</td>    
+</tr>
+<tr>            
+    <th>File_from_bsp</th>
+    <td *ngFor="let detail of details | slice: 26:31">
+        {{ detail.file_from_bsp }}</td>
+</tr>
+<tr>
+    <th>Country_Code</th>
+    <td *ngFor="let detail of details | slice: 26:31">
+        {{ detail.country_code }}</td>
+</tr>
+<tr>        
+    <th>Rename_Info_Mask</th>
+    <td *ngFor="let detail of details | slice: 26:31">
+        {{ detail.renameinfo_mask }}</td>
+</tr>
+<tr>        
+    <th>Rename_Format</th>
+    <td *ngFor="let detail of details | slice: 26:31">
+        {{ detail.rename_format }}</td>
+</tr>
+<tr>        
+    <th>File_Path</th>
+    <td *ngFor="let detail of details | slice: 26:31">
+        {{ detail.file_path }}</td>
+</tr>
+<tr>        
+    <th>file_backup_path</th>
+    <td *ngFor="let detail of details | slice: 26:31">
+        {{ detail.file_backup_path }}</td>
+</tr>
+<tr>        
+    <th>Unzip_File</th>
+    <td *ngFor="let detail of details | slice: 26:31">
+        {{ detail.unzip_file }}</td>
+</tr>
+<tr>        
+    <th>Import_File</th>
+    <td *ngFor="let detail of details | slice: 26:31">
+        {{ detail.import_file }}</td>
+</tr>
+<tr>        
+    <th>Status</th>
+    <td *ngFor="let detail of details | slice: 26:31">
+        {{ detail.status}}</td>
+</tr>
+<tr>        
+    <th>Download_fr_Folder</th>
+    <td *ngFor="let detail of details | slice: 26:31">
+        {{ detail.download_fr_folder }}</td>
+</tr>
+<tr>        
+    <th>Classify_File</th>
+    <td *ngFor="let detail of details | slice: 26:31">
+        {{ detail.classify_file }}</td>
+</tr>
+<tr>        
+    <th>Backup_File</th>
+    <td *ngFor="let detail of details | slice: 26:31">
+        {{ detail.backup_file}}</td>        
+</tr>
+</table><br>
+
+<table class="details">
+<tr>
+    <th>ID</th>
+    <td *ngFor="let detail of details | slice: 31:36">
+    {{ detail.id }}</td>
+</tr>
+<tr> 
+    <th>FileType</th>
+    <td *ngFor="let detail of details | slice: 31:36">
+        {{ detail.fileType }}</td>    
+</tr>
+<tr>            
+    <th>File_from_bsp</th>
+    <td *ngFor="let detail of details | slice: 31:36">
+        {{ detail.file_from_bsp }}</td>
+</tr>
+<tr>
+    <th>Country_Code</th>
+    <td *ngFor="let detail of details | slice: 31:36">
+        {{ detail.country_code }}</td>
+</tr>
+<tr>        
+    <th>Rename_Info_Mask</th>
+    <td *ngFor="let detail of details | slice: 31:36">
+        {{ detail.renameinfo_mask }}</td>
+</tr>
+<tr>        
+    <th>Rename_Format</th>
+    <td *ngFor="let detail of details | slice: 31:36">
+        {{ detail.rename_format }}</td>
+</tr>
+<tr>        
+    <th>File_Path</th>
+    <td *ngFor="let detail of details | slice: 31:36">
+        {{ detail.file_path }}</td>
+</tr>
+<tr>        
+    <th>file_backup_path</th>
+    <td *ngFor="let detail of details | slice: 31:36">
+        {{ detail.file_backup_path }}</td>
+</tr>
+<tr>        
+    <th>Unzip_File</th>
+    <td *ngFor="let detail of details | slice: 31:36">
+        {{ detail.unzip_file }}</td>
+</tr>
+<tr>        
+    <th>Import_File</th>
+    <td *ngFor="let detail of details | slice: 31:36">
+        {{ detail.import_file }}</td>
+</tr>
+<tr>        
+    <th>Status</th>
+    <td *ngFor="let detail of details | slice: 31:36">
+        {{ detail.status}}</td>
+</tr>
+<tr>        
+    <th>Download_fr_Folder</th>
+    <td *ngFor="let detail of details | slice: 31:36">
+        {{ detail.download_fr_folder }}</td>
+</tr>
+<tr>        
+    <th>Classify_File</th>
+    <td *ngFor="let detail of details | slice: 31:36">
+        {{ detail.classify_file }}</td>
+</tr>
+<tr>        
+    <th>Backup_File</th>
+    <td *ngFor="let detail of details | slice: 31:36">
+        {{ detail.backup_file}}</td>        
+</tr>
+</table><br>
+
+<table class="details">
+<tr>
+    <th>ID</th>
+    <td *ngFor="let detail of details | slice: 26:31">
+    {{ detail.id }}</td>
+</tr>
+<tr> 
+    <th>FileType</th>
+    <td *ngFor="let detail of details | slice: 26:31">
+        {{ detail.fileType }}</td>    
+</tr>
+<tr>            
+    <th>File_from_bsp</th>
+    <td *ngFor="let detail of details | slice: 26:31">
+        {{ detail.file_from_bsp }}</td>
+</tr>
+<tr>
+    <th>Country_Code</th>
+    <td *ngFor="let detail of details | slice: 26:31">
+        {{ detail.country_code }}</td>
+</tr>
+<tr>        
+    <th>Rename_Info_Mask</th>
+    <td *ngFor="let detail of details | slice: 26:31">
+        {{ detail.renameinfo_mask }}</td>
+</tr>
+<tr>        
+    <th>Rename_Format</th>
+    <td *ngFor="let detail of details | slice: 26:31">
+        {{ detail.rename_format }}</td>
+</tr>
+<tr>        
+    <th>File_Path</th>
+    <td *ngFor="let detail of details | slice: 26:31">
+        {{ detail.file_path }}</td>
+</tr>
+<tr>        
+    <th>file_backup_path</th>
+    <td *ngFor="let detail of details | slice: 26:31">
+        {{ detail.file_backup_path }}</td>
+</tr>
+<tr>        
+    <th>Unzip_File</th>
+    <td *ngFor="let detail of details | slice: 26:31">
+        {{ detail.unzip_file }}</td>
+</tr>
+<tr>        
+    <th>Import_File</th>
+    <td *ngFor="let detail of details | slice: 26:31">
+        {{ detail.import_file }}</td>
+</tr>
+<tr>        
+    <th>Status</th>
+    <td *ngFor="let detail of details | slice: 26:31">
+        {{ detail.status}}</td>
+</tr>
+<tr>        
+    <th>Download_fr_Folder</th>
+    <td *ngFor="let detail of details | slice: 26:31">
+        {{ detail.download_fr_folder }}</td>
+</tr>
+<tr>        
+    <th>Classify_File</th>
+    <td *ngFor="let detail of details | slice: 26:31">
+        {{ detail.classify_file }}</td>
+</tr>
+<tr>        
+    <th>Backup_File</th>
+    <td *ngFor="let detail of details | slice: 26:31">
+        {{ detail.backup_file}}</td>        
+</tr>
+</table><br>
+
+<table class="details">
+<tr>
+    <th>ID</th>
+    <td *ngFor="let detail of details | slice: 36:41">
+    {{ detail.id }}</td>
+</tr>
+<tr> 
+    <th>FileType</th>
+    <td *ngFor="let detail of details | slice: 36:41">
+        {{ detail.fileType }}</td>    
+</tr>
+<tr>            
+    <th>File_from_bsp</th>
+    <td *ngFor="let detail of details | slice: 36:41">
+        {{ detail.file_from_bsp }}</td>
+</tr>
+<tr>
+    <th>Country_Code</th>
+    <td *ngFor="let detail of details | slice: 36:41">
+        {{ detail.country_code }}</td>
+</tr>
+<tr>        
+    <th>Rename_Info_Mask</th>
+    <td *ngFor="let detail of details | slice: 36:41">
+        {{ detail.renameinfo_mask }}</td>
+</tr>
+<tr>        
+    <th>Rename_Format</th>
+    <td *ngFor="let detail of details | slice: 36:41">
+        {{ detail.rename_format }}</td>
+</tr>
+<tr>        
+    <th>File_Path</th>
+    <td *ngFor="let detail of details | slice: 36:41">
+        {{ detail.file_path }}</td>
+</tr>
+<tr>        
+    <th>file_backup_path</th>
+    <td *ngFor="let detail of details | slice: 36:41">
+        {{ detail.file_backup_path }}</td>
+</tr>
+<tr>        
+    <th>Unzip_File</th>
+    <td *ngFor="let detail of details | slice: 36:41">
+        {{ detail.unzip_file }}</td>
+</tr>
+<tr>        
+    <th>Import_File</th>
+    <td *ngFor="let detail of details | slice: 36:41">
+        {{ detail.import_file }}</td>
+</tr>
+<tr>        
+    <th>Status</th>
+    <td *ngFor="let detail of details | slice: 36:41">
+        {{ detail.status}}</td>
+</tr>
+<tr>        
+    <th>Download_fr_Folder</th>
+    <td *ngFor="let detail of details | slice: 36:41">
+        {{ detail.download_fr_folder }}</td>
+</tr>
+<tr>        
+    <th>Classify_File</th>
+    <td *ngFor="let detail of details | slice: 36:41">
+        {{ detail.classify_file }}</td>
+</tr>
+<tr>        
+    <th>Backup_File</th>
+    <td *ngFor="let detail of details | slice: 36:41">
+        {{ detail.backup_file}}</td>        
+</tr>
+</table><br>
+
+<table class="details">
+<tr>
+    <th>ID</th>
+    <td *ngFor="let detail of details | slice: 41:46">
+    {{ detail.id }}</td>
+</tr>
+<tr> 
+    <th>FileType</th>
+    <td *ngFor="let detail of details | slice: 41:46">
+        {{ detail.fileType }}</td>    
+</tr>
+<tr>            
+    <th>File_from_bsp</th>
+    <td *ngFor="let detail of details | slice: 41:46">
+        {{ detail.file_from_bsp }}</td>
+</tr>
+<tr>
+    <th>Country_Code</th>
+    <td *ngFor="let detail of details | slice: 41:46">
+        {{ detail.country_code }}</td>
+</tr>
+<tr>        
+    <th>Rename_Info_Mask</th>
+    <td *ngFor="let detail of details | slice: 41:46">
+        {{ detail.renameinfo_mask }}</td>
+</tr>
+<tr>        
+    <th>Rename_Format</th>
+    <td *ngFor="let detail of details | slice: 41:46">
+        {{ detail.rename_format }}</td>
+</tr>
+<tr>        
+    <th>File_Path</th>
+    <td *ngFor="let detail of details | slice: 41:46">
+        {{ detail.file_path }}</td>
+</tr>
+<tr>        
+    <th>file_backup_path</th>
+    <td *ngFor="let detail of details | slice: 41:46">
+        {{ detail.file_backup_path }}</td>
+</tr>
+<tr>        
+    <th>Unzip_File</th>
+    <td *ngFor="let detail of details | slice: 41:46">
+        {{ detail.unzip_file }}</td>
+</tr>
+<tr>        
+    <th>Import_File</th>
+    <td *ngFor="let detail of details | slice: 41:46">
+        {{ detail.import_file }}</td>
+</tr>
+<tr>        
+    <th>Status</th>
+    <td *ngFor="let detail of details | slice: 41:46">
+        {{ detail.status}}</td>
+</tr>
+<tr>        
+    <th>Download_fr_Folder</th>
+    <td *ngFor="let detail of details | slice: 41:46">
+        {{ detail.download_fr_folder }}</td>
+</tr>
+<tr>        
+    <th>Classify_File</th>
+    <td *ngFor="let detail of details | slice: 41:46">
+        {{ detail.classify_file }}</td>
+</tr>
+<tr>        
+    <th>Backup_File</th>
+    <td *ngFor="let detail of details | slice: 41:46">
+        {{ detail.backup_file}}</td>        
+</tr>
+</table><br>
+
+<table class="details">
+<tr>
+    <th>ID</th>
+    <td *ngFor="let detail of details | slice: 46:51">
+    {{ detail.id }}</td>
+</tr>
+<tr> 
+    <th>FileType</th>
+    <td *ngFor="let detail of details | slice: 46:51">
+        {{ detail.fileType }}</td>    
+</tr>
+<tr>            
+    <th>File_from_bsp</th>
+    <td *ngFor="let detail of details | slice: 46:51">
+        {{ detail.file_from_bsp }}</td>
+</tr>
+<tr>
+    <th>Country_Code</th>
+    <td *ngFor="let detail of details | slice: 46:51">
+        {{ detail.country_code }}</td>
+</tr>
+<tr>        
+    <th>Rename_Info_Mask</th>
+    <td *ngFor="let detail of details | slice: 46:51">
+        {{ detail.renameinfo_mask }}</td>
+</tr>
+<tr>        
+    <th>Rename_Format</th>
+    <td *ngFor="let detail of details | slice: 46:51">
+        {{ detail.rename_format }}</td>
+</tr>
+<tr>        
+    <th>File_Path</th>
+    <td *ngFor="let detail of details | slice: 46:51">
+        {{ detail.file_path }}</td>
+</tr>
+<tr>        
+    <th>file_backup_path</th>
+    <td *ngFor="let detail of details | slice: 46:51">
+        {{ detail.file_backup_path }}</td>
+</tr>
+<tr>        
+    <th>Unzip_File</th>
+    <td *ngFor="let detail of details | slice: 446:51">
+        {{ detail.unzip_file }}</td>
+</tr>
+<tr>        
+    <th>Import_File</th>
+    <td *ngFor="let detail of details | slice: 46:51">
+        {{ detail.import_file }}</td>
+</tr>
+<tr>        
+    <th>Status</th>
+    <td *ngFor="let detail of details | slice: 46:51">
+        {{ detail.status}}</td>
+</tr>
+<tr>        
+    <th>Download_fr_Folder</th>
+    <td *ngFor="let detail of details | slice: 46:51">
+        {{ detail.download_fr_folder }}</td>
+</tr>
+<tr>        
+    <th>Classify_File</th>
+    <td *ngFor="let detail of details | slice: 46:51">
+        {{ detail.classify_file }}</td>
+</tr>
+<tr>        
+    <th>Backup_File</th>
+    <td *ngFor="let detail of details | slice: 46:51">
+        {{ detail.backup_file}}</td>        
+</tr>
+</table><br>
+
+<table class="details">
+<tr>
+    <th>ID</th>
+    <td *ngFor="let detail of details | slice: 51:56">
+    {{ detail.id }}</td>
+</tr>
+<tr> 
+    <th>FileType</th>
+    <td *ngFor="let detail of details | slice: 51:56">
+        {{ detail.fileType }}</td>    
+</tr>
+<tr>            
+    <th>File_from_bsp</th>
+    <td *ngFor="let detail of details | slice: 51:56">
+        {{ detail.file_from_bsp }}</td>
+</tr>
+<tr>
+    <th>Country_Code</th>
+    <td *ngFor="let detail of details | slice: 51:56">
+        {{ detail.country_code }}</td>
+</tr>
+<tr>        
+    <th>Rename_Info_Mask</th>
+    <td *ngFor="let detail of details | slice: 51:56">
+        {{ detail.renameinfo_mask }}</td>
+</tr>
+<tr>        
+    <th>Rename_Format</th>
+    <td *ngFor="let detail of details | slice: 51:56">
+        {{ detail.rename_format }}</td>
+</tr>
+<tr>        
+    <th>File_Path</th>
+    <td *ngFor="let detail of details | slice: 51:56">
+        {{ detail.file_path }}</td>
+</tr>
+<tr>        
+    <th>file_backup_path</th>
+    <td *ngFor="let detail of details | slice: 51:56">
+        {{ detail.file_backup_path }}</td>
+</tr>
+<tr>        
+    <th>Unzip_File</th>
+    <td *ngFor="let detail of details | slice: 51:56">
+        {{ detail.unzip_file }}</td>
+</tr>
+<tr>        
+    <th>Import_File</th>
+    <td *ngFor="let detail of details | slice: 51:56">
+        {{ detail.import_file }}</td>
+</tr>
+<tr>        
+    <th>Status</th>
+    <td *ngFor="let detail of details | slice: 51:56">
+        {{ detail.status}}</td>
+</tr>
+<tr>        
+    <th>Download_fr_Folder</th>
+    <td *ngFor="let detail of details | slice: 51:56">
+        {{ detail.download_fr_folder }}</td>
+</tr>
+<tr>        
+    <th>Classify_File</th>
+    <td *ngFor="let detail of details | slice: 51:56">
+        {{ detail.classify_file }}</td>
+</tr>
+<tr>        
+    <th>Backup_File</th>
+    <td *ngFor="let detail of details | slice: 51:56">
+        {{ detail.backup_file}}</td>        
+</tr>
+</table><br>
+
+<table class="details">
+<tr>
+    <th>ID</th>
+    <td *ngFor="let detail of details | slice: 56:61">
+    {{ detail.id }}</td>
+</tr>
+<tr> 
+    <th>FileType</th>
+    <td *ngFor="let detail of details | slice: 56:61">
+        {{ detail.fileType }}</td>    
+</tr>
+<tr>            
+    <th>File_from_bsp</th>
+    <td *ngFor="let detail of details | slice: 56:61">
+        {{ detail.file_from_bsp }}</td>
+</tr>
+<tr>
+    <th>Country_Code</th>
+    <td *ngFor="let detail of details | slice: 56:61">
+        {{ detail.country_code }}</td>
+</tr>
+<tr>        
+    <th>Rename_Info_Mask</th>
+    <td *ngFor="let detail of details | slice:56:61">
+        {{ detail.renameinfo_mask }}</td>
+</tr>
+<tr>        
+    <th>Rename_Format</th>
+    <td *ngFor="let detail of details | slice: 56:61">
+        {{ detail.rename_format }}</td>
+</tr>
+<tr>        
+    <th>File_Path</th>
+    <td *ngFor="let detail of details | slice: 56:61">
+        {{ detail.file_path }}</td>
+</tr>
+<tr>        
+    <th>file_backup_path</th>
+    <td *ngFor="let detail of details | slice: 56:61">
+        {{ detail.file_backup_path }}</td>
+</tr>
+<tr>        
+    <th>Unzip_File</th>
+    <td *ngFor="let detail of details | slice: 56:61">
+        {{ detail.unzip_file }}</td>
+</tr>
+<tr>        
+    <th>Import_File</th>
+    <td *ngFor="let detail of details | slice: 56:61">
+        {{ detail.import_file }}</td>
+</tr>
+<tr>        
+    <th>Status</th>
+    <td *ngFor="let detail of details | slice:56:61">
+        {{ detail.status}}</td>
+</tr>
+<tr>        
+    <th>Download_fr_Folder</th>
+    <td *ngFor="let detail of details | slice: 56:61">
+        {{ detail.download_fr_folder }}</td>
+</tr>
+<tr>        
+    <th>Classify_File</th>
+    <td *ngFor="let detail of details | slice: 56:61">
+        {{ detail.classify_file }}</td>
+</tr>
+<tr>        
+    <th>Backup_File</th>
+    <td *ngFor="let detail of details | slice: 56:61">
+        {{ detail.backup_file}}</td>        
+</tr>
+</table><br>
